@@ -1,0 +1,17 @@
+2020-07-08 09:35:28.904  INFO 89296 --- [main] c.example.SpringBootLoggingApplication   : Starting SpringBootLoggingApplication on DESKTOP-FMK with PID 89296 (C:\Users\Doraon\IdeaProjects\springboot\spring-boot-demo\spring-boot-logging\target\classes started by Doraon in C:\Users\Doraon\IdeaProjects\springboot\spring-boot-demo)
+2020-07-08 09:35:28.910  INFO 89296 --- [main] c.example.SpringBootLoggingApplication   : No active profile set, falling back to default profiles: default
+2020-07-08 09:35:30.425  INFO 89296 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-08 09:35:30.434  INFO 89296 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-08 09:35:30.435  INFO 89296 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-08 09:35:30.530  INFO 89296 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-08 09:35:30.531  INFO 89296 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1538 ms
+2020-07-08 09:35:30.687  INFO 89296 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-08 09:35:30.879  INFO 89296 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-08 09:35:30.893  INFO 89296 --- [main] c.example.SpringBootLoggingApplication   : Started SpringBootLoggingApplication in 2.79 seconds (JVM running for 4.046)
+2020-07-08 09:35:35.575  INFO 89296 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1592198993,1592300221,1592400680] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-07-08 09:35:35.583  INFO 89296 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-08 09:35:35.584  INFO 89296 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-08 09:35:35.589  INFO 89296 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-07-08 09:35:35.608  INFO 89296 --- [http-nio-8080-exec-1] com.example.controller.HelloController   : info...
+2020-07-08 09:35:35.609 ERROR 89296 --- [http-nio-8080-exec-1] com.example.controller.HelloController   : debug...
